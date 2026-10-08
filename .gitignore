@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Large/local data files
+data/raw/*
+data/processed/*
+
+# Keep the folders in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Private source documents / embedded data
+*.pbix
+*Thesis*.pdf
+*thesis*.pdf
